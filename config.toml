@@ -1,0 +1,5 @@
+baseURL = "http://www.pareciaquenoperoalfinalllego.com/"
+languageCode = "es-es"
+title = "Parecía que no pero al final llegó"
+sectionPagesMenu = "main"
+publishDir = "docs"

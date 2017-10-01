@@ -1,0 +1,456 @@
+/*
+* Navbar
+*/
+.uk-navbar-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.uk-navbar-center:only-child {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  flex-wrap: wrap;
+}
+.uk-navbar-nav li {
+  margin-right: 60px;
+}
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background-color: white;
+}
+.uk-navbar-nav li.uk-active > a {
+  color: #5CA698;
+  font-weight: bold;
+}
+.uk-navbar-nav li > a {
+  /* font-family: Roboto, cursive!important; */
+  font-size: 16px;
+  color: #555;
+  font-family: "Gotham", sans-serif;
+  /* font-weight: bold; */
+}
+.uk-navbar-center {
+  margin: 0 auto;
+}
+
+/*
+* sticky footer
+*/
+html {
+  height: 100%;
+}
+body {
+  display: flex ;
+  flex-direction: column;
+  height: 100%;
+}
+.uk-offcanvas-content {
+  flex: 1 0 auto;
+}
+
+.wall-notifications,
+.wall-notification {
+  display: none!important;
+}
+
+/*
+* Footer
+*/
+footer {
+  min-height: 30px;
+}
+footer a {
+  color: white;
+  font-size: 16px;
+}
+.footer-border {
+  height: 100px;
+  background-color: #5CA698;
+  text-align: center;
+  border-width: 1px;
+  border-top: solid #333;
+}
+.footer-border a {
+  margin-top: 35px;
+  display: block;
+  font-family: "Gotham", sans-serif;
+  font-weight: bold;
+}
+
+.uk-responsive-width {
+  max-width: 100%!important;
+  height: auto;
+  box-sizing: border-box;
+}
+
+/* Others */
+
+#hamburger {
+  margin: 20px;
+}
+
+/* INTRO BAND */
+
+.welcome-image {
+  position: relative;
+  max-height: 700px;
+  height: 500px;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(/images/together.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.welcome-image h2 {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+  font-size: 90px;
+  font-family: 'starlight', cursive;
+  line-height: 70px;
+  color: #49c5b6;
+  color: white;
+}
+
+.band-intro {
+  max-width: 960px;
+  margin: 4em auto;
+  padding: 20px;
+}
+.band-intro p {
+  font-size: 20px;
+  text-align: center;
+
+  font-size: 16px;
+  color: #6c6d70;
+  line-height: 1.8;
+}
+
+/* BARBECUE & BRUNCH BANDS */
+
+.band-image {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+  height: 500px;
+}
+.faroles {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(/images/faroles.jpg);
+  background-size: cover;
+}
+.brunch {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 100, 10, 0.1),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(/images/brunch.jpg);
+  background-size: cover;
+}
+.band-image .card {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+}
+.band-image h2 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', cursive;
+  text-shadow: 0 1px 0 black;
+}
+.band-image p {
+  color: white;
+  text-align: center;
+  max-width: 500px;
+  text-shadow: 0 1px 0 black;
+  color: #fafafa;
+  line-height: 1.8;
+}
+
+/* WEDDING BAND */
+
+.band-odd {
+  margin: 6em auto;
+  text-align: center;
+}
+.band-odd img {
+  width: 300px;
+  margin-top: -50px;
+}
+.band-odd h2 {
+  font-size: 120px;
+  margin: 0;
+  text-transform: capitalize;
+  font-family: 'starlight', cursive;
+  display: inline;
+}
+.band-odd p {
+  max-width: 800px;
+  font-size: 16px;
+  color: #6c6d70;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+p, a {
+  font-family: "Gotham", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  margin: 20px auto;
+}
+
+
+/* GET THERE & SLEEPING BAND */
+
+.band-full {
+  max-width: 800px;
+  margin: 6em auto;
+  text-align: center;
+}
+.card-side {
+  width: 15%;
+  padding-top: 4em;
+  padding-left: 4em;
+  padding-right: 4em;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-side h2 {
+  font-size: 24px;
+  font-family: 'Josefin Sans', cursive;
+  color: #555;
+  margin: 0;
+  margin-top: 0.5em;
+}
+.card-side:first-child {
+  margin-right: 20px;
+}
+
+/* SPOTIFY BAND */
+
+.color {
+  overflow: hidden;
+  height: 500px;
+
+  background-color: #eaeaea;
+  text-align: center;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 100, 50, 0.7),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(/images/watercolor.jpg);
+  background-size: cover;
+}
+.band {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.color p {
+  margin-top: 6em;
+  margin-bottom: 40px;
+  color: white;
+}
+.playlists {
+  display: inline-block;
+}
+.color .playlist {
+  width: 100%;
+  text-align: left;
+}
+.color .playlist.first {
+  margin-bottom: 2em;
+}
+.playlist img {
+  width: 60px;
+  margin-bottom: 5px;
+  display: inline-block;
+  margin-right: 1em;
+}
+.playlist h3 {
+  color: white;
+  display: inline;
+  border-width: 3px;
+  border: solid white;
+  padding: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.band a {
+  color: white!important;
+  text-decoration: underline;
+  font-weight: bold;
+}
+a:hover h3 {
+  transition: all 0.4s ease;
+  background-color: #1CB04A;
+}
+
+a:hover {
+  text-decoration: none!important;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 500px) {
+  p {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  nav {
+    display: none!important;
+  }
+  .plan-image .image-wrapper {
+    width: 100%;
+    height: 200px;
+  }
+  .slick-prev,
+  .slick-next {
+    display: none!important;
+  }
+  .band-intro {
+    margin: 2em auto;
+    padding: 0;
+  }
+  .band-odd {
+    margin: 4em auto;
+  }
+  .band-full {
+    margin: 4em auto;
+  }
+  .card-side {
+    width: 35%;
+    padding: 2em;
+  }
+  .playlist img {
+    display: none;
+  }
+  .playlist h3 {
+    display: block;
+    text-align: center;
+  }
+  .color p {
+    margin-bottom: 0px;
+    margin-top: 4em;
+  }
+}
+@media (min-width: 700px) {
+  #hamburger {
+    display: none;
+  }
+}
+@media (max-width: 840px) {
+  .band-odd img {
+    display: none;
+  }
+}
+
+/* fonts */
+@font-face {
+  font-family: "Gotham";
+  src: url('../fonts/Gotham-Book.eot?1439448704');
+  src: url('../fonts/Gotham-Book.eot?&1439448704#iefix') format('embedded-opentype'), url('../fonts/Gotham-Book.woff?1439448706') format('woff'), url('../fonts/Gotham-Book.ttf?1439448704') format('truetype'), url('../fonts/Gotham-Book.svg?1439448706') format('svg');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Gotham Bold";
+  src: url('../fonts/Gotham-Bold.eot?1439448724');
+  src: url('../fonts/Gotham-Bold.eot?&1439448724#iefix') format('embedded-opentype'), url('../fonts/Gotham-Bold.woff?1439448724') format('woff'), url('../fonts/Gotham-Bold.ttf?1439448724') format('truetype'), url('../fonts/Gotham-Bold.svg?1439448724') format('svg');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "starlight";
+  src: url('../fonts/starlight.woff?1439448724') format('woff');
+  font-weight: 700;
+}
+
+/*
+* Lugar
+*/
+#mapa {
+  max-width: 750px;
+}
+
+/*
+ * Plan
+*/
+.plan-image .image-wrapper {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+.plan-image img {
+  margin: auto;
+  margin-bottom: 40px;
+  display: block;
+}
+.plan-image h3 {
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+.plan-image .time {
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 70px;
+  color: #888;
+}
+.plan-image p {
+  font-family: 'Architects Daughter', cursive;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/*
+ * Slick
+*/
+.slick-slide {
+  outline: none !important;
+}
+.slick-prev {
+  left: 0px!important;
+  z-index: 100!important;
+}
+.slick-next {
+  right: 50px!important;
+  z-index: 100!important;
+}
+.slick-prev:before, .slick-next:before {
+  color: #66BEA9 !important;
+  font-size: 80px!important;
+}

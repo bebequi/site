@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ananke: a Hugo Theme on Parecía que no pero al final llegó</title>
+    <link>http://www.pareciaquenoperoalfinalllego.com/</link>
+    <description>Recent content in Ananke: a Hugo Theme on Parecía que no pero al final llegó</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sun, 01 Oct 2017 20:12:13 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.pareciaquenoperoalfinalllego.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fotos</title>
+      <link>http://www.pareciaquenoperoalfinalllego.com/fotos/</link>
+      <pubDate>Sun, 01 Oct 2017 20:12:13 +0200</pubDate>
+      
+      <guid>http://www.pareciaquenoperoalfinalllego.com/fotos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alojamiento</title>
+      <link>http://www.pareciaquenoperoalfinalllego.com/alojamiento/</link>
+      <pubDate>Sun, 01 Oct 2017 20:11:34 +0200</pubDate>
+      
+      <guid>http://www.pareciaquenoperoalfinalllego.com/alojamiento/</guid>
+      <description>En Otero de Herreros no hay hoteles, pero hay varias casas rurales donde alojarse. Si prefieres una habitación de hotel, tienes una opción cerca en el pueblo de al lado, los Ángeles de San Rafael. Casas rurales  Como ya de por sí es complicado sentar a la gente en una boda, organizar dónde duermen nos parece imposible, así que aquí os pondremos las opciones, y podéis reservarlas vosotros mismos o contarnos que planéais si os hace falta gente para llenar una casa rural.</description>
+    </item>
+    
+    <item>
+      <title>Cómo llegar</title>
+      <link>http://www.pareciaquenoperoalfinalllego.com/lugar/</link>
+      <pubDate>Sun, 01 Oct 2017 16:50:05 +0200</pubDate>
+      
+      <guid>http://www.pareciaquenoperoalfinalllego.com/lugar/</guid>
+      <description>  Pasaremos todo el fin de semana en Otero de los Herreros, un encantador pueblecito cerca de Madrid. La barbacoa y el brunch las celebraremos en el Palacio de Canalejas. y la boda en La Estación. Aquí tenéis un mapa esquemático sobre cómo llegar desde Madrid y Valladolid. Más abajo las ubicaciones exactas de Google maps.  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+<nav class="uk-navbar-container" uk-navbar>
+  <div class="uk-navbar-center">
+    {{ if .Site.Menus.main }}
+      <ul class="uk-navbar-nav">
+        <li class="{{ if .Page.IsHome }}uk-active{{ end }}">
+          <a href="{{ .Site.BaseURL }}" title="inicio">
+            Inicio
+          </a>
+        </li>
+        {{ range .Site.Menus.main }}
+          <li class="{{ if eq $.Page.RelPermalink .URL }}uk-active{{ end }}">
+            <a href="{{ .URL }}" title="{{ .Name }} page">
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+</nav>
+
+<div class="uk-offcanvas-content">
+  <div
+    type="button" uk-toggle="target: #offcanvas-usage"
+    id="hamburger"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" ratio="1">
+      <rect y="9" width="20" height="2"></rect>
+      <rect y="3" width="20" height="2"></rect>
+      <rect y="15" width="20" height="2"></rect>
+    </svg>
+  </div>
+
+  <div id="offcanvas-usage" uk-offcanvas>
+      <div class="uk-offcanvas-bar">
+
+          <button class="uk-offcanvas-close" type="button" uk-close></button>
+          <h3>Menú</h3>
+          <p>Navega las secciones de la web</p>
+          {{ if .Site.Menus.main }}
+              <ul class="uk-nav">
+                <li class="{{ if .Page.IsHome }}uk-active{{ end }}">
+                  <a href="{{ .Site.BaseURL }}" title="inicio">
+                    Inicio
+                  </a>
+                </li>
+                {{ range .Site.Menus.main }}
+                  <li class="{{ if eq $.Page.RelPermalink .URL }}uk-active{{ end }}">
+                    <a href="{{ .URL }}" title="{{ .Name }} page">
+                      {{ .Name }}
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+        {{ end }}
+      </div>
+  </div>
+</div>
