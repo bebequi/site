@@ -35,8 +35,6 @@
       <div class="uk-offcanvas-bar">
 
           <button class="uk-offcanvas-close" type="button" uk-close></button>
-          <h3>Menú</h3>
-          <p>Navega las secciones de la web</p>
           {{ if .Site.Menus.main }}
               <ul class="uk-nav">
                 <li class="{{ if .Page.IsHome }}uk-active{{ end }}">
