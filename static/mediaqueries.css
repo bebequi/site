@@ -1,11 +1,11 @@
 
-@media (min-width: 781px) {
+@media (min-width: 796px) {
   #hamburger {
     display: none;
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 795px) {
   nav {
     display: none!important;
   }
