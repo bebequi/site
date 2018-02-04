@@ -449,6 +449,9 @@ footer a {
     width: 200px;
     text-align: left;
   }
+  .events .event-slash {
+    text-align: right;
+  }
 
 .band-accommodation h2 {
   font-size: 24px;
@@ -527,33 +530,6 @@ footer a {
   height: 400px;
   overflow: hidden;
 }
-.post-module .thumbnail .date {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 1;
-  background: #e74c3c;
-  width: 55px;
-  height: 55px;
-  padding: 12.5px 0;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
-  color: #FFFFFF;
-  font-weight: 700;
-  text-align: center;
-  -webkti-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  line-height: 15px;
-}
-.post-module .thumbnail .date .day {
-  font-size: 18px;
-}
-.post-module .thumbnail .date .month {
-  font-size: 12px;
-  text-transform: uppercase;
-}
 .post-module .thumbnail img {
   display: block;
   width: 120%;
@@ -569,13 +545,13 @@ footer a {
   background: #FFFFFF;
   width: 100%;
   padding: 30px;
-  -webkti-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .post-module .post-content .category {
   position: absolute;
-  top: -34px;
+  top: -25px;
   left: 0;
   background: #e74c3c;
   padding: 10px 15px;
@@ -605,16 +581,11 @@ footer a {
   line-height: 1.8em;
   margin: 0;
 }
-.post-module .post-content .post-meta {
-  margin: 30px 0 0;
-  color: #999999;
-}
-.post-module .post-content .post-meta .timestamp {
-  margin: 0 16px 0 0;
-}
-.post-module .post-content .post-meta a {
-  color: #999999;
-  text-decoration: none;
+a .post-module:hover  .post-content {
+  background-color: #FAFAFA;
+  -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
 }
 .hover .post-content .description {
   display: block !important;
@@ -624,7 +595,7 @@ footer a {
 .post-module .booked {
   color: #e74c3c;
 }
-.available {
+.post-module .available {
   color: #419085;
 }
 
