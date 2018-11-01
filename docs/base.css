@@ -78,25 +78,19 @@ body {
 /*
 * Footer
 */
-footer {
-  min-height: 30px;
-}
 footer a {
   color: white;
   font-size: 16px;
 }
 .footer-border {
-  height: 100px;
-  background-color: #5CA698;
+  padding: 40px 0;
+  background-color: #999;
   text-align: center;
   border-width: 1px;
-  border-top: solid #333;
 }
 .footer-border a {
-  margin-top: 35px;
   display: block;
   font-family: "Gotham", sans-serif;
-  font-weight: bold;
 }
 .footer-border a:hover {
   color: white;
